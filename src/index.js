@@ -36,8 +36,7 @@ function changeThemaBody(e) {
 };
 
 function saveThemaBody() {
-    // console.dir(localStorage.theme === 'dark-theme');
-    console.dir(refs.themCheckBox.checked);
+    // console.dir(refs.themCheckBox.checked);
      if (localStorage.theme === 'dark-theme') {
          refs.themBody.classList.add(Theme.DARK);
          refs.themCheckBox.checked = true;
@@ -48,7 +47,7 @@ function saveThemaBody() {
     }
 }
 
-saveThemaBody()
+saveThemaBody();
 
 
 
